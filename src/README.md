@@ -27,8 +27,3 @@ moduleName：`dffl`，`dfflr`，`dfflrc`，`dfflrs`
 moduleName #(DATA_WIDTH) instName (clk, rstn, en, d, q);
 ```
 ---
-
-## 文件路径说明
-`imag`：存放README.md里的图片。
-
-`src`：存放所有代码，直接复制该文件夹到目标工程文件内即可。
