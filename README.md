@@ -1,5 +1,6 @@
 # Standard D Flip-Flop Struct
 ## 概述
+
 一系列标准的触发器，采用`verlog`编写，并遵循`verilog-2001`标准。触发器默认位宽`DATA_WIDTH=16`，触发器均采用`always`模块实现，下面列出支持的触发器结构。
 
 - `dff`：无复位，无使能
