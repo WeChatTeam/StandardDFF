@@ -1,3 +1,4 @@
+(* DONT_TOUCH = "yes" *)
 module dffl #(
     parameter DATA_WIDTH = 16
 )(
