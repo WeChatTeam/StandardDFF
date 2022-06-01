@@ -1,4 +1,3 @@
-(* DONT_TOUCH = "yes" *)
 module dffl #(
     parameter DATA_WIDTH = 16
 )(
@@ -11,6 +10,10 @@ module dffl #(
 
 reg [DATA_WIDTH-1 : 0] q_r;
 assign q = q_r;
+
+initial begin
+    q_r <= 1'b0;
+end
 
 always @(posedge clk) begin
     if (en == 1'b1) begin

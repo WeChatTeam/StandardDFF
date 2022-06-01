@@ -1,4 +1,3 @@
-(* DONT_TOUCH = "yes" *)
 module dfflr #(
     parameter DATA_WIDTH = 16
 )(
